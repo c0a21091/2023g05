@@ -681,6 +681,18 @@
 
 <footer>
   <p>フッターのコンテンツ</p>
+  <button id="myButton" onclick="myFunction()">お問い合わせ</button>
+  <script>
+    function myFunction() {
+    window.location.href = "http://pnw.cloud.cs.priv.teu.ac.jp:8080/2023g05/main/toi.jsp"; // Replace with your desired URL
+  }
+  </script>
+  <button id="myButton" onclick="myFunction2()">採用情報</button>
+  <script>
+    function myFunction2() {
+    window.location.href = "http://pnw.cloud.cs.priv.teu.ac.jp:8080/2023g05/main/saiyo.jsp"; // Replace with your desired URL
+  }
+  </script>
 </footer>
 
 <!-- 掲示板 -->
